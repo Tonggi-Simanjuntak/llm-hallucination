@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Rahasia dan konfigurasi lokal
+.env
+*.key
+
+# Bobot model dan berkas besar (dibagikan lewat tautan terpisah)
+models/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+
+# Berkas bawaan sistem operasi
+.DS_Store
+Thumbs.db
