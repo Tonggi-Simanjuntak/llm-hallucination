@@ -1,0 +1,28 @@
+{
+ "jumlah_file": 11,
+ "kata_total": 5005,
+ "karakter_total": 39043,
+ "kata_inti": 3851,
+ "persen_inti": 76.9,
+ "rata_kata_total": 455.0,
+ "min_kata_total": 284,
+ "maks_kata_total": 675,
+ "jenis": {
+  "Permohonan baru": 6,
+  "Penggantian": 5
+ },
+ "update": {
+  "11 Jan 2024": 6,
+  "2 Sep 2025": 5
+ },
+ "tanpa_url": [
+  "imigrasiAnakdiBawah17.txt",
+  "imigrasiAnakDwikewarganegaraan.txt"
+ ],
+ "dengan_tanggal_akses": [
+  "imigrasiMasyarakatUmum.txt"
+ ],
+ "baris_inti_unik_ge40": 242,
+ "baris_duplikat_antar_file": 155,
+ "persen_baris_duplikat": 64.0
+}

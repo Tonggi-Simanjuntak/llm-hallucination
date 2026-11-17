@@ -1,0 +1,12 @@
+file,halaman,jenis_layanan,kata_total,karakter_total,kata_inti,bagian_ditemukan,terakhir_update,ada_url_di_file,ada_tanggal_akses,jumlah_nominal_rp
+imigrasiAnakdiBawah17.txt,Anak di bawah 17 tahun,Permohonan baru,370,2834,266,4,11 Jan 2024,False,False,3
+imigrasiAnakDwikewarganegaraan.txt,Anak dwikewarganegaraan,Permohonan baru,675,4954,571,5,11 Jan 2024,False,False,5
+ImigrasiAnakLahirDiLuarnegri.txt,Anak lahir di luar negeri,Permohonan baru,284,2347,179,4,11 Jan 2024,True,False,3
+imigrasiCalonPekerjaMigran.txt,Calon pekerja migran,Permohonan baru,474,3772,369,4,11 Jan 2024,True,False,3
+ImigrasiHajiUmroh.txt,Haji/umrah,Permohonan baru,416,3317,311,4,11 Jan 2024,True,False,3
+imigrasiMasyarakatUmum.txt,Masyarakat Umum,Permohonan baru,459,3614,353,5,2 Sep 2025,True,True,8
+imigrasiPasporAkanHabisMasaBerlaku.txt,Paspor akan habis masa berlaku,Penggantian,534,4161,429,5,2 Sep 2025,True,False,8
+imigrasiPasporHilang.txt,Paspor hilang,Penggantian,521,4043,416,5,2 Sep 2025,True,False,7
+ImigrasiPasporRusak.txt,Paspor rusak,Penggantian,582,4515,477,5,2 Sep 2025,True,False,7
+imigrasiPenggantianPasporDiluarNegri.txt,Penggantian di luar negeri,Penggantian,381,3018,276,5,2 Sep 2025,True,False,8
+ImigrasiPengubahandataPaspor.txt,Pengubahan data paspor,Penggantian,309,2468,204,4,11 Jan 2024,True,False,0
