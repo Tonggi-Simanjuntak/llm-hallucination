@@ -1,0 +1,42 @@
+DAFTAR SUMBER DATA
+Project: Deteksi dan Mitigasi Halusinasi LLM pada Pertanyaan Layanan Publik
+
+Aturan: hanya situs resmi .go.id. Salinan disimpan apa adanya di data/raw/.
+Kebenaran jawaban dinilai terhadap salinan pada tanggal akses di bawah.
+
+1. DUKCAPIL (Kemendagri)
+   Berkas        : data/raw/dukcapil/dukcapil_syarat_prosedur.pdf
+   Judul         : Syarat dan Penjelasan dalam Layanan Pindah Datang Penduduk,
+                   Biodata, KK, KTP-el dan KIA
+   URL           : https://dukcapil.kemendagri.go.id/files/2023/1680205930Syarat%20dan%20Prosedur%20Layanan%20Pendaftaran%20Penduduk.pdf
+   Tanggal akses : 22/11/2026
+   Halaman       : 23
+   Status        : Sudah diunduh, [teks bisa disalin: ya / tidak]
+   Catatan       : Akta kelahiran bukan layanan tersendiri di dokumen ini.
+
+2. IMIGRASI (imigrasi.go.id) - Layanan WNI > Paspor Republik Indonesia
+   Folder        : data/raw/imigrasi/ (11 berkas .txt, masing-masing 1 halaman web)
+   Berkas                                  URL                 Tanggal akses
+   imigrasiMasyarakatUmum.txt              [URL]               16/11/2026
+   imigrasiAnakdiBawah17.txt               [URL]               [tanggal]
+   imigrasiAnakDwikewarganegaraan.txt      [URL]               [tanggal]
+   imigrasiCalonPekerjaMigran.txt          [URL]               [tanggal]
+   ImigrasiHajiUmroh.txt                   [URL]               [tanggal]
+   ImigrasiAnakLahirDiLuarnegri.txt        [URL]               [tanggal]
+   imigrasiPasporAkanHabisMasaBerlaku.txt  [URL]               [tanggal]
+   imigrasiPasporHilang.txt                [URL]               [tanggal]
+   ImigrasiPasporRusak.txt                 [URL]               [tanggal]
+   imigrasiPenggantianPasporDiluarNegri.txt [URL]              [tanggal]
+   ImigrasiPengubahandataPaspor.txt        [URL]               [tanggal]
+   Catatan       : Dua berkas (imigrasiAnakdiBawah17 dan
+                   imigrasiAnakDwikewarganegaraan) awalnya tanpa URL; sudah
+                   dilengkapi. Halaman bertanggal pembaruan situs berbeda
+                   (11 Jan 2024 dan 2 Sep 2025), sehingga tarif disajikan
+                   dengan struktur berbeda.
+
+3. TRUTHFULQA (pembanding, untuk S4)
+   Berkas        : data/raw/truthfulqa/TruthfulQA.csv
+   URL           : https://github.com/sylinrl/TruthfulQA
+   Tanggal akses : [tanggal]
+   Baris         : [jumlah baris; diharapkan 817]
+   Status        : [belum diunduh / sudah]
