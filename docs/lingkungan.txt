@@ -1,0 +1,16 @@
+LINGKUNGAN KOMPUTASI - Progress 3
+Platform      : Google Colab, GPU Tesla T4 (14,6 GB), driver 580.82.07, CUDA 13.0
+Python        : 3.13.16
+PyTorch       : 2.14.1+cu130
+transformers  : 5.22.1
+accelerate    : 1.15.0
+tokenizers    : 0.23.3
+sentence-transformers : 5.7.0
+pandas / numpy : 2.2.3 / 2.4.6
+scikit-learn / scipy : 1.6.1 / 1.16.3
+
+Model         : Qwen/Qwen3-4B-Instruct-2507
+Revisi model  : cdbee75f17c01a7cc42f958dc650907174af0554
+Presisi       : float16
+Dekoding uji  : greedy (do_sample=False)
+Tanggal       : [isi tanggal sesi]
