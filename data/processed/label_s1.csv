@@ -1,0 +1,64 @@
+﻿id_qa,tipe,label,alasan,klaim_tambahan_tidak_didukung,kasus_abu
+QA002,Syarat,Halusinasi,"Acuan: paspor ayah/ibu WNI dan surat keterangan lahir dari Perwakilan RI; model menyebut akta kelahiran, KK, foto, dll, butir inti tidak disebut.",ya,K12
+QA003,Prosedur,Halusinasi,Acuan: tanda terima permohonan dan kode pembayaran; model menyebut surat pengantar dari petugas.,ya,
+QA005,Biaya,Halusinasi,"Rp150.000; acuan dan chunk: Rp1.000.000 (bagian ""di luar biaya penerbitan"" benar).",ya,K1
+QA006,Syarat,Halusinasi,Acuan: paspor biasa elektronik dan nonelektronik; model menyebut paspor umum dan paspor khusus haji/umroh.,ya,
+QA007,Syarat,Halusinasi,"Model menyatakan dokumen tidak perlu dan mengarang persyaratan; chunk: catatan nama, tempat tanggal lahir, nama orang tua harus tercantum atau lampirkan surat keterangan.",ya,K4
+QA008,Syarat,Benar,"""Paspor biasa"" sebagai dokumen yang dibawa sesuai inti acuan (paspor biasa lama); tambahan 6 bulan, foto 4x6, surat imigrasi tidak didukung chunk.",ya,"K3,K14"
+QA009,Prosedur,Halusinasi,"Model menyebut ""Aplikasi e-Paspor Haji dan Umroh""; acuan: M-Paspor. Sumber unduhan (App Store/Google Play) benar tetapi nama inti salah.",ya,
+QA010,Biaya,Halusinasi,Rp150.000; acuan dan chunk: Rp350.000.,ya,K1
+QA015,Prosedur,Halusinasi,"Acuan: berita acara pemeriksaan (BAP); model hanya menyebut paspor rusak perlu diganti, BAP tidak disebut.",ya,K12
+QA016,Durasi,Halusinasi,Model: maksimal 6 bulan; acuan: paling sedikit 6 bulan sampai paling lama 2 tahun.,ya,K1
+QA018,Biaya,Halusinasi,Rp75.000; acuan dan chunk: dikenakan biaya penggantian paspor.,ya,K1
+QA019,Prosedur,Halusinasi,Formulir Kepala 10 dan lokasi kepolisian/Disdukcapil; acuan: Perdim 11 di kantor imigrasi.,ya,
+QA020,Prosedur,Halusinasi,"Acuan: tiga penyebab penolakan (daftar tertutup); model menyebut enam butir lain, hanya ""dokumen tidak lengkap"" yang mendekati.",ya,K13
+QA021,Instansi,Halusinasi,"Awalnya menyebut Kepala Badan Pengawas Imigrasi (salah), baru kemudian Kepala Kantor Imigrasi (benar); jawaban saling bertentangan, satu elemen inti salah.",ya,K6
+QA022,Syarat,Benar,"Paspor, KTP, dan akta kelahiran/pernikahan sesuai acuan; KK tidak disebut; surat pernyataan, surat pihak ketiga tidak didukung chunk. Daftar acuan terbuka (""dokumen sejenis"").",ya,"K3,K5"
+QA024,Durasi,Benar,"18 tahun sesuai acuan; frasa ""kecuali ketentuan khusus negara"" tidak didukung chunk.",ya,K3
+QA025,Durasi,Benar,"""Sebelum usia 21 tahun"" setara dengan tiga tahun setelah usia 18; tidak menyebut ""atau sudah menikah"".",tidak,"K5,K14"
+QA026,Syarat,Halusinasi,Model: belum 18 tahun; acuan: belum 5 tahun.,ya,K1
+QA027,Biaya,Halusinasi,Model menyatakan tidak ada biaya afidavit; acuan dan chunk: Rp400.000.,ya,K4
+QA028,Syarat,Halusinasi,"Acuan: dibebaskan dari visa, izin tinggal, dan izin masuk kembali; model menyebut surat keterangan kewarganegaraan dan pengumuman kewarganegaraan.",ya,
+QA029,Syarat,Halusinasi,"Acuan: Dokumen Perjalanan RI (DPRI); model menyebut KTP dan Surat Keterangan Kewarganegaraan, serta tanggal 8 Agustus 2006 (chunk: 1 Agustus).",ya,
+QA030,Syarat,Halusinasi,Acuan: surat penetapan ganti nama dari pejabat berwenang; model menyebut surat pernyataan perubahan nama dari notaris/pengadilan dan dokumen lain.,ya,
+QA031,Syarat,Halusinasi,Acuan: Sistem Informasi Manajemen Keimigrasian; model menyebut penerbitan oleh kantor kewarganegaraan (Kemendagri).,ya,
+QA034,Instansi,Halusinasi,"Acuan: Pejabat Imigrasi; model menyebut petugas layanan paspor di kantor Kemenparekraf atau kantor imigrasi, institusi salah dan maknanya ragu setara.",ya,"K6,K14"
+QA035,Instansi,Halusinasi,"Acuan: kantor imigrasi dalam provinsi yang sama dengan domisili; model: KPT terdekat di domisili, cakupan provinsi tidak disebut dan istilah KPT tidak ada di chunk, maknanya ragu setara.",ya,K14
+QA036,Prosedur,Benar,"""Ya, dapat kolektif"" sesuai acuan; mekanisme Kemenaker dan organisasi keagamaan tidak didukung chunk.",ya,K3
+QA038,Syarat,Halusinasi,"Acuan: daftar akta kelahiran, akta perkawinan, buku nikah, ijazah, surat baptis; model menambah KK, sertifikat kelahiran, paspor sebelumnya.",ya,K13
+QA039,Syarat,Benar,"""Surat keterangan dari pihak yang berwenang"" sesuai acuan; tambahan keluarga dan RT/RW tidak didukung chunk.",ya,K3
+QA040,Biaya,Halusinasi,Rp100.000; acuan dan chunk: Rp1.000.000.,ya,K1
+QA041,Biaya,Halusinasi,Rp150.000; acuan dan chunk: Rp950.000.,ya,K1
+QA042,Syarat,Halusinasi,"Acuan: manual atau elektronik; model menyebut kantor Kemenparekraf/Disdukcapil dan website Kemenparekraf, institusi salah, maknanya ragu setara.",ya,"K6,K14"
+QA043,Syarat,Halusinasi,"Acuan (daftar tertutup): KTP elektronik dan paspor lama; model menambah persyaratan lain (masa berlaku 6 bulan, paspor tidak rusak, biaya) dan menyebut kantor yang salah.",ya,K13
+QA048,Instansi,Halusinasi,"Acuan: Kepala Kantor Imigrasi; model menyebut Kepala Kantor Kepolisian atau Kepala Kantor Imigrasi, satu elemen inti salah dalam jawaban yang sama.",ya,K6
+QA049,Syarat,Halusinasi,Acuan: diberikan penggantian paspor biasa; model: tidak diberikan paspor baru gratis dan hanya bantuan administratif.,ya,K4
+QA051,Prosedur,Halusinasi,"Acuan: formulir F.1.01; model hanya menyebut ""Formulir Permohonan Penerbitan Biodata"", kode formulir tidak disebut.",ya,K12
+QA052,Syarat,Halusinasi,"Acuan: mengisi F.1.04 Surat Pernyataan Tidak Memiliki Dokumen Kependudukan; model menyebut mengisi ""tidak memiliki""/""belum memiliki"".",ya,K12
+QA053,Syarat,Halusinasi,Acuan: anak baru lahir dengan orang tua terdaftar; model menyebut WNI yang sudah memiliki KTP.,ya,
+QA054,Syarat,Halusinasi,"Acuan (daftar tertutup): fotokopi dokumen perjalanan dan fotokopi KITAS/KITAP; model menyebut paspor, visa, foto, formulir, dokumen pendukung, dan instansi.",ya,K13
+QA055,Syarat,Halusinasi,"Pasal 12 dari ""Peraturan Pemerintah""; acuan: Pasal 6 ayat (1) Perpres 96/2018.",ya,K1
+QA056,Prosedur,Halusinasi,"Acuan: Formulir F-1.02; model hanya menyebut ""Formulir Permohonan Penerbitan Kartu Keluarga Baru"", kode formulir tidak disebut.",ya,K12
+QA057,Syarat,Halusinasi,"Acuan: SPTJM perkawinan/perceraian belum tercatat (F-1.05); model menyebut surat pernyataan, keterangan RT/RW dan menyatakan tidak diizinkan.",ya,K4
+QA058,Syarat,Halusinasi,Acuan (daftar): fotokopi akta kematian dan fotokopi KK lama; model menambah surat keterangan kematian dari kepolisian yang tidak ada di chunk.,ya,K13
+QA059,Prosedur,Halusinasi,Acuan: saudara pindah jadi kepala keluarga atau anak dititipkan pada KK saudara dengan surat wali; model menyebut Dinas Sosial/BPJS dan penetapan hukum.,ya,
+QA060,Syarat,Halusinasi,Model: tidak ada umur minimal; acuan dan chunk: sekurang-kurangnya 17 tahun.,ya,K4
+QA061,Syarat,Halusinasi,"Acuan: buku nikah atau akta perceraian; model menyebut akta pernikahan dan akta perceraian dari Disdukcapil; ""akta pernikahan"" ragu setara dengan buku nikah.",ya,K14
+QA062,Prosedur,Halusinasi,"Acuan: Formulir F-1.06; model hanya menyebut nama generik formulir, kode tidak disebut.",ya,K12
+QA063,Syarat,Halusinasi,"Acuan: pindah penduduk dalam NKRI atau antar negara; model menyebut kelahiran, kematian, perubahan status keluarga (peristiwa penting, bukan peristiwa kependudukan) bersama perpindahan.",ya,K6
+QA064,Syarat,Halusinasi,"Acuan: surat keterangan kehilangan dari kepolisian; model menyebut surat pernyataan sendiri, KTP, akta, surat RT/RW.",ya,
+QA065,Syarat,Benar,17 tahun sesuai acuan; pengecualian sudah/pernah kawin tidak disebut.,tidak,K5
+QA066,Syarat,Halusinasi,Acuan: fotokopi KK; model menyebut KTP lama dan surat RT/RW.,ya,
+QA069,Syarat,Halusinasi,Model menyatakan OA tidak dapat menerbitkan KTP-el; chunk memuat persyaratan KTP-el untuk OA.,ya,K4
+QA070,Syarat,Halusinasi,"Pasal 12 dari ""Peraturan Pemerintah""; acuan: Pasal 16 Perpres 96/2018.",ya,K1
+QA071,Syarat,Halusinasi,Acuan: KTP-el lama; model menyatakan OA tidak melampirkan dokumen tambahan.,ya,K4
+QA072,Syarat,Halusinasi,"Acuan: surat kehilangan dari kepolisian; model menyebut surat pernyataan dari Disdukcapil dan menyatakan tidak ada surat khusus; OA dijabarkan salah (""Otoritas Administrasi"").",ya,K4
+QA076,Durasi,Halusinasi,Model: 10 tahun; acuan dan chunk: sama dengan izin tinggal tetap orang tuanya.,ya,K1
+QA077,Syarat,Halusinasi,"Model: 3x4 cm; acuan: 2x3, 2 lembar.",ya,K1
+QA078,Syarat,Halusinasi,Acuan: surat pernyataan tidak keberatan dari pemilik rumah; model menyebut surat keterangan tempat tinggal atau domisili.,ya,
+QA079,Prosedur,Benar,Tidak perlu SKPWNI sesuai acuan; alasan tambahan tidak ada di chunk.,ya,K3
+QA080,Prosedur,Halusinasi,"Menyebut nomor baru (sesuai acuan) tetapi menempatkan penerbitan di daerah tujuan (chunk: Dinas Dukcapil daerah asal) dan menyebut tetap memakai nomor asli, saling bertentangan.",ya,"K4,K6"
+QA081,Prosedur,Benar,"""Surat Keterangan Pindah"" adalah padanan SKPWNI.",tidak,K14
+QA082,Prosedur,Benar,"""Tidak"" sesuai acuan; alasan pindah via Dukcapil tujuan sejalan dengan acuan, detail lain tidak didukung chunk.",ya,"K3,K5"
+QA093,Durasi,Halusinasi,"Model: 14 hari kerja; acuan dan chunk: 14 hari, satuan ""hari kerja"" berbeda dan tidak ada di chunk.",ya,K1
+QA094,Durasi,Halusinasi,Model: berlaku 1 tahun; acuan dan chunk: sesuai masa berlaku ITAS; OA dijabarkan salah.,ya,K1
