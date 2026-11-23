@@ -1,0 +1,225 @@
+id_qa,split,tipe,pertanyaan,jawaban_model,jumlah_token,terpotong,waktu_detik,max_new_tokens,seed
+QA002,uji,Syarat,Apa saja dokumen persyaratan permohonan paspor untuk anak WNI yang lahir di luar negeri?,"Dokumen persyaratan permohonan paspor untuk anak WNI yang lahir di luar negeri antara lain:
+
+1. **Akta kelahiran anak** (diterbitkan di luar negeri)  
+2. **Akta kelahiran orang tua** (jika diperlukan)  
+3. **Kartu keluarga atau surat keterangan keluarga dari orang tua**  
+4. **Surat keterangan domisili orang tua** (dari kecamatan/kota)  
+5. **Surat keterangan perjalanan dari orang tua** (jika diperlukan)  
+6. **Surat keterangan dari kantor imigrasi atau konsulat Indonesia** (jika diperlukan)  
+7. **Foto berwarna ukuran 3x4 cm** (2 lembar)  
+8. **Formulir permohonan paspor** (yang bisa diunduh dari situs resmi Kemenkumham)  
+
+Catatan: Jika anak tidak memiliki akta kelahiran yang sah, perlu dilakukan proses verifikasi atau pengajuan surat keterangan dari pihak berwenang.  
+
+Semua dokumen harus diterbitkan dalam bahasa Indonesia atau memiliki terjemahan resmi.",280,False,34.31,512,42
+QA003,uji,Prosedur,"Dalam permohonan paspor secara manual untuk anak yang lahir di luar negeri, apa yang diperoleh pemohon dari petugas setelah dokumen persyaratan dinyatakan lengkap?","Setelah dokumen persyaratan dinyatakan lengkap, pemohon mendapatkan **surat pengantar (surat keterangan) dari petugas** yang menyatakan bahwa dokumen telah lengkap dan dapat dilanjutkan ke proses penerbitan paspor.",60,False,5.72,512,42
+QA005,uji,Biaya,"Berapa biaya layanan percepatan paspor yang selesai pada hari yang sama bagi anak yang lahir di luar negeri, dan apakah sudah termasuk biaya penerbitan paspor?","Biaya layanan percepatan paspor untuk anak lahir di luar negeri yang selesai pada hari yang sama adalah **Rp 150.000**, dan **biaya ini belum termasuk biaya penerbitan paspor**. Biaya penerbitan paspor sendiri berlaku terpisah sesuai kategori usia dan jenis paspor (misalnya paspor anak).",91,False,6.4,512,42
+QA006,uji,Syarat,Paspor biasa terdiri atas jenis apa saja menurut layanan paspor haji dan umroh dari imigrasi?,"Paspor biasa terdiri atas dua jenis menurut layanan paspor Haji dan Umroh dari Imigrasi Indonesia, yaitu:
+
+1. **Paspor Biasa (Paspor Umum)** – digunakan untuk keperluan perjalanan umum, termasuk Haji dan Umroh.  
+2. **Paspor Khusus (Paspor Haji/Umroh)** – dikeluarkan khusus untuk keperluan ibadah Haji dan Umroh, dengan catatan tertentu seperti keberangkatan dan kembali.
+
+Namun, perlu dicatat bahwa **paspor biasa** yang dimiliki warga Indonesia sudah cukup untuk digunakan dalam perjalanan Haji dan Umroh, dan tidak perlu diperoleh khusus. Paspor khusus tidak lagi dikeluarkan secara resmi oleh Imigrasi setelah perubahan kebijakan.  
+
+Jadi, **hanya ada satu jenis paspor yang digunakan untuk Haji dan Umroh, yaitu paspor biasa**, yang harus valid dan sesuai syarat perjalanan.",248,False,14.55,512,42
+QA007,uji,Syarat,"Apa catatan yang berlaku untuk dokumen akta kelahiran, akta perkawinan, buku nikah, atau ijazah dalam persyaratan paspor haji dan umroh?","Dokumen seperti akta kelahiran, akta perkawinan, buku nikah, atau ijazah **tidak perlu** disertakan dalam persyaratan paspor untuk haji dan umroh.  
+
+Persyaratan utama yang wajib disertakan adalah:  
+- Paspor yang masih berlaku (minimal 6 bulan setelah keberangkatan)  
+- Akta kelahiran (dibutuhkan untuk anak-anak atau jika tidak ada paspor)  
+- Akta perkawinan (jika berangkat bersama pasangan)  
+- Buku nikah (jika diperlukan oleh agama atau instansi penerbit)  
+
+Namun, **ijazah** tidak diminta dalam proses pengajuan paspor haji atau umroh.  
+
+Catatan: Dokumen tersebut bisa diminta oleh kantor imigrasi atau penyelenggara haji/umroh sebagai bagian dari verifikasi keabsahan identitas, tetapi **bukan sebagai syarat wajib** untuk paspor.  
+
+Jadi, **hanya akta kelahiran dan akta perkawinan yang umum dibutuhkan**, bukan ijazah.",267,False,19.81,512,42
+QA008,uji,Syarat,Dokumen apa yang harus dibawa pemohon paspor haji dan umroh yang sudah pernah memiliki paspor biasa?,"Pemohon paspor haji dan umroh yang sudah pernah memiliki paspor biasa harus membawa:
+
+1. **Paspor biasa** (dengan masa berlaku minimal 6 bulan ke depan)  
+2. **Kartu keluarga** (untuk membuktikan identitas dan hubungan keluarga)  
+3. **Surat keterangan dari kantor imigrasi** (jika diperlukan, tergantung kebijakan daerah)  
+4. **Surat pernyataan atau surat izin dari pihak yang berwenang** (jika diperlukan)  
+5. **Foto berwarna ukuran 4x6 cm** (sesuai ketentuan)  
+
+Catatan: Pemohon harus memastikan paspor yang dibawa masih berlaku dan tidak terdapat catatan penolakan atau pembatalan.  
+
+*Catatan tambahan: Untuk kebutuhan haji dan umroh, dokumen yang dibutuhkan bisa berbeda tergantung kantor konsulat atau kantor penerbit paspor setempat. Disarankan untuk memeriksa kebijakan terkini di kantor konsulat terdekat.*",275,False,15.83,512,42
+QA009,uji,Prosedur,"Aplikasi apa yang digunakan untuk pendaftaran permohonan paspor haji dan umroh, dan dari mana aplikasi itu diunduh?","Aplikasi yang digunakan untuk pendaftaran permohonan paspor haji dan umroh adalah **Aplikasi e-Paspor Haji dan Umroh**.  
+
+Aplikasi ini dapat diunduh melalui **Google Play Store** (untuk perangkat Android) atau **Apple App Store** (untuk perangkat iOS).  
+
+Pastikan mengunduh aplikasi resmi dari sumber terpercaya untuk menghindari penipuan.",106,False,5.91,512,42
+QA010,uji,Biaya,Berapa biaya paspor biasa nonelektronik 48 halaman untuk layanan paspor haji dan umroh?,"Biaya paspor biasa nonelektronik 48 halaman untuk layanan paspor Haji dan Umroh di Indonesia saat ini adalah **Rp 150.000** (sebagai informasi, biaya ini bisa berubah tergantung perubahan kebijakan pemerintah).  
+
+Catatan: Biaya ini berlaku untuk paspor biasa (non-elektronik) dan mungkin berbeda jika diperlukan proses khusus seperti paspor Haji atau Umroh. Rekomendasi: Periksa langsung di situs resmi Kementerian Hukum dan HAM atau kantor paspor terdekat.",152,False,8.6,512,42
+QA015,uji,Prosedur,"Dalam penggantian paspor rusak, apa yang disampaikan Pejabat Imigrasi kepada Kepala Kantor Imigrasi untuk mendapatkan pertimbangan?","Pejabat Imigrasi menyampaikan bahwa paspor tersebut rusak dan perlu diganti, serta memerlukan pertimbangan terkait kebutuhan dan kebijakan penggantian paspor sesuai dengan ketentuan peraturan.",56,False,3.02,512,42
+QA016,uji,Durasi,"Jika paspor biasa hilang atau rusak karena kecerobohan atau kelalaian disertai alasan yang tidak dapat diterima, berapa lama pemberian paspor dapat ditangguhkan?",Paspor dapat ditangguhkan selama **maksimal 6 bulan** jika hilang atau rusak karena kecerobohan atau kelalaian disertai alasan yang tidak dapat diterima.,47,False,2.49,512,42
+QA018,uji,Biaya,Berapa biaya layanan pengubahan data paspor?,"Biaya layanan pengubahan data paspor di Indonesia saat ini adalah **Rp 75.000** (untuk perubahan data seperti nama, tempat lahir, atau tanggal lahir). Biaya ini berlaku untuk pengubahan data yang dilakukan di Kantor Imigrasi terdekat.  
+
+Catatan: Biaya bisa berubah, sehingga disarankan untuk memeriksa langsung di situs resmi Kementerian Hukum dan HAM atau kantor imigrasi setempat.",117,False,6.82,512,42
+QA019,uji,Prosedur,"Formulir apa yang harus diisi lengkap oleh pemohon pengubahan data paspor, dan di mana formulir itu tersedia?","Pemohon pengubahan data paspor wajib mengisi **Formulir Permohonan Perubahan Data Paspor** (Formulir Kepala 10). Formulir ini tersedia di:
+
+- Kantor Kepolisian Republik Indonesia (Kepolisian Daerah atau Polsek terdekat),  
+- Website resmi Kementerian Hukum dan HAM (https://www.kemendagri.go.id),  
+- Aplikasi e-Service Kemenkumham,  
+- Atau di kantor Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) setempat.
+
+Catatan: Pengubahan data paspor hanya dapat dilakukan jika data yang diubah sesuai dengan peraturan yang berlaku dan harus disertai dokumen pendukung seperti fotokopi KTP, surat keterangan dari instansi terkait, dan lainnya sesuai ketentuan.",211,False,11.91,512,42
+QA020,uji,Prosedur,Apa saja penyebab penolakan permohonan perubahan data paspor?,"Penyebab penolakan permohonan perubahan data paspor antara lain:
+
+1. Data yang dimohon tidak sesuai dengan dokumen pendukung (misalnya, surat keterangan dari instansi resmi).  
+2. Perubahan data melanggar ketentuan hukum atau aturan paspor (misalnya perubahan nama yang tidak sesuai dengan surat nikah atau akta kelahiran).  
+3. Dokumen pendukung tidak lengkap atau tidak berlaku (misalnya surat keterangan tidak lengkap atau sudah kadaluarsa).  
+4. Perubahan data bertentangan dengan data yang sudah tercatat di sistem kependudukan.  
+5. Permohonan diajukan oleh pihak yang tidak berhak (misalnya orang tua mengganti nama anak tanpa persetujuan anak).  
+6. Ada indikasi penyalahgunaan atau kecurangan dalam proses perubahan data.  
+
+Semua dokumen harus valid, lengkap, dan sesuai dengan ketentuan yang berlaku.",238,False,13.23,512,42
+QA021,uji,Instansi,"Dalam alur pengubahan data paspor, persetujuan dari siapa yang diperlukan sebelum persetujuan Direktur Jenderal Imigrasi?","Sebelum persetujuan Direktur Jenderal Imigrasi, diperlukan persetujuan dari **Kepala Badan Pengawas Imigrasi** (atau sesuai struktur organisasi yang berlaku). Namun, dalam praktiknya, untuk pengubahan data paspor, biasanya hanya memerlukan **persetujuan dari Kepala Kantor Imigrasi** atau **Kepala Subbagian/Unit Terkait**, tergantung jenis perubahan dan tingkat kebijakan yang terlibat.
+
+Namun, secara umum, **tidak ada persetujuan di atas Direktur Jenderal** untuk pengubahan data paspor yang sederhana. Pengubahan data paspor biasanya dilakukan oleh **Kepala Kantor Imigrasi** atau **Petugas Pengelolaan Paspor**.
+
+Jadi, jawabannya:  
+**Persetujuan dari Kepala Kantor Imigrasi atau petugas terkait.**",223,False,12.52,512,42
+QA022,uji,Syarat,Dokumen apa saja yang dipersyaratkan untuk pengubahan data paspor?,"Untuk pengubahan data paspor, dokumen yang umum dipersyaratkan antara lain:
+
+1. Paspor lama (dengan catatan data yang diubah)  
+2. Kartu identitas (KTP)  
+3. Fotokopi KTP  
+4. Surat keterangan dari pihak ketiga (jika diperlukan, misalnya perubahan nama karena pernikahan)  
+5. Surat pernyataan (jika diperlukan)  
+6. Fotokopi akta kelahiran atau akta pernikahan (jika ada perubahan nama)  
+
+Catatan: Syarat bisa berbeda tergantung jenis perubahan (nama, tanggal lahir, alamat, dll) dan kebijakan kantor imigrasi setempat. Disarankan untuk memeriksa langsung di kantor imigrasi terdekat.",198,False,11.05,512,42
+QA024,uji,Durasi,Hingga usia berapa seorang anak dapat berstatus kewarganegaraan ganda terbatas?,"Seorang anak dapat berstatus kewarganegaraan ganda terbatas hingga usia **18 tahun**, kecuali ada ketentuan khusus dalam undang-undang kewarganegaraan negara tersebut.",55,False,3.26,512,42
+QA025,uji,Durasi,Paling lambat kapan pernyataan memilih kewarganegaraan harus disampaikan oleh anak berkewarganegaraan ganda?,"Paling lambat, pernyataan memilih kewarganegaraan harus disampaikan oleh anak berkewarganegaraan ganda **sebelum usia 21 tahun**.",45,False,2.43,512,42
+QA026,uji,Syarat,Anak WNI yang diangkat sebagai anak sah oleh WNA berdasarkan ketetapan pengadilan dapat berstatus kewarganegaraan ganda terbatas jika belum berusia berapa?,Anak WNI yang diangkat sebagai anak sah oleh WNA berdasarkan ketetapan pengadilan dapat berstatus kewarganegaraan ganda terbatas jika **belum berusia 18 tahun**.,52,False,2.8,512,42
+QA027,uji,Biaya,Berapa biaya afidavit yang harus dilampirkan anak berkewarganegaraan ganda terbatas yang memiliki paspor kebangsaan lain?,"Tidak ada biaya afidavit untuk anak berkewarganegaraan ganda terbatas yang memiliki paspor kebangsaan lain. Biaya afidavit biasanya tidak dikenakan dalam proses administrasi kependudukan atau kebangsaan di Indonesia. Namun, biaya administrasi lain (seperti surat keterangan atau dokumen resmi) mungkin dikenakan sesuai kebijakan instansi terkait.  
+
+Silakan konfirmasi ke Dinas Kependudukan dan Pencatatan Sipil (DKPS) setempat untuk informasi lebih akurat.",133,False,7.77,512,42
+QA028,uji,Syarat,Anak berkewarganegaraan ganda terbatas yang hanya memiliki paspor asing dibebaskan dari kewajiban apa saja?,"Anak berkewarganegaraan ganda terbatas yang hanya memiliki paspor asing **dibebaskan dari kewajiban untuk mengajukan surat keterangan kewarganegaraan Indonesia** atau **kewajiban pengumuman kewarganegaraan** secara resmi. Namun, tetap harus memenuhi kewajiban hukum lainnya sesuai dengan hukum negara asalnya dan peraturan Indonesia, seperti kewajiban pajak, pendidikan, atau keanggotaan dalam sistem kependudukan jika diperlukan.
+
+Catatan: Kebijakan ini berlaku dalam konteks hukum kewarganegaraan Indonesia, dan bisa berubah sesuai peraturan terkini.",173,False,9.9,512,42
+QA029,uji,Syarat,Dokumen apa yang dapat diberikan kepada anak berkewarganegaraan ganda terbatas yang lahir setelah 1 Agustus 2006 walaupun mempunyai paspor asing?,"Anak berkewarganegaraan ganda terbatas yang lahir setelah 8 Agustus 2006, meskipun memiliki paspor asing, dapat mendapatkan **Kartu Tanda Penduduk (KTP)** dan **Surat Keterangan Kewarganegaraan (SKK)**. Namun, **surat keterangan kewarganegaraan** yang dikeluarkan oleh Kementerian Hukum dan HAM (sekarang Kemenkumham) adalah dokumen resmi yang menunjukkan status kewarganegaraannya.
+
+Jadi, dokumen yang dapat diberikan adalah:  
+**Surat Keterangan Kewarganegaraan (SKK)**.  
+
+Catatan: Anak tersebut tetap memiliki hak atas KTP sebagai warga negara Indonesia, meskipun memiliki paspor asing.",194,False,10.49,512,42
+QA030,uji,Syarat,Surat apa yang diperlukan dalam persyaratan paspor anak berkewarganegaraan ganda bagi yang telah mengganti nama?,"Untuk anak dengan kewarganegaraan ganda yang telah mengganti nama, diperlukan **surat pernyataan perubahan nama** yang dikeluarkan oleh pihak yang berwenang (seperti notaris atau pengadilan) sebagai bagian dari persyaratan pengajuan paspor. Selain itu, juga diperlukan dokumen pendukung lainnya seperti:
+
+- Akta kelahiran (dengan perubahan nama)
+- Surat keterangan kewarganegaraan ganda
+- Fotokopi KTP orang tua
+- Surat keterangan dari pihak yang berwenang (jika diperlukan)
+
+Pastikan surat perubahan nama telah **dilengkapi dengan tanda tangan dan cap resmi**.  
+
+*Catatan: Persyaratan bisa berbeda tergantung kebijakan Kementerian Kebudayaan dan Pariwisata atau Dinas Kependudukan dan Pencatatan Sipil setempat.*",228,False,12.94,512,42
+QA031,uji,Syarat,Dengan sistem apa paspor biasa diterbitkan?,"Paspor biasa diterbitkan dengan sistem **penerbitan langsung oleh kantor kewarganegaraan** (Kementerian Dalam Negeri atau instansi terkait) melalui proses administratif yang melibatkan verifikasi identitas, dokumen pendukung, dan pendaftaran.",75,False,4.54,512,42
+QA034,uji,Instansi,"Dalam prosedur manual permohonan paspor anak di bawah 17 tahun, siapa yang memeriksa dokumen kelengkapan persyaratan?","Dalam prosedur manual permohonan paspor anak di bawah 17 tahun, dokumen kelengkapan persyaratan umumnya **diperiksa oleh petugas layanan paspor** di kantor Kementerian Kebudayaan, Pariwisata, dan Olahraga (Kemenparekraf) atau kantor imigrasi terdekat. Petugas ini bertanggung jawab memastikan semua dokumen sesuai dengan ketentuan yang berlaku.",112,False,5.95,512,42
+QA035,uji,Instansi,Di kantor imigrasi mana permohonan paspor calon TKI yang berdomisili di Indonesia diajukan?,Permohonan paspor calon TKI yang berdomisili di Indonesia diajukan di **Kantor Imigrasi Pelayanan Terpadu (KPT) terdekat** di tempat domisili.,48,False,2.88,512,42
+QA036,uji,Prosedur,Dapatkah pengajuan permohonan paspor calon TKI dilakukan secara kolektif?,"Iya, pengajuan permohonan paspor calon TKI dapat dilakukan secara kolektif, namun harus melalui mekanisme yang ditetapkan oleh Kementerian Ketenagakerjaan atau Dinas Ketenagakerjaan setempat. Pengajuan kolektif biasanya dilakukan oleh perwakilan kelompok atau lembaga yang mengelola calon TKI, seperti lembaga binaan, perusahaan, atau organisasi keagamaan. Namun, setiap calon TKI tetap harus memenuhi syarat dan melengkapi dokumen pribadi sesuai ketentuan.",145,False,8.05,512,42
+QA038,uji,Syarat,Dokumen apa saja yang dapat dilampirkan masyarakat umum sebagai bukti nama dan tempat tanggal lahir dalam permohonan paspor?,"Masyarakat umum dapat melampirkan dokumen berikut sebagai bukti nama dan tempat tanggal lahir dalam permohonan paspor:
+
+1. **Kartu Keluarga (KK)**  
+2. **Akta Kelahiran**  
+3. **Sertifikat Kelahiran**  
+4. **Ijazah atau surat keterangan dari sekolah** (jika akta kelahiran tidak tersedia)  
+5. **Paspor sebelumnya** (jika ada)  
+
+Catatan: Akta kelahiran atau KK adalah dokumen paling umum dan resmi yang diterima. Jika dokumen tersebut tidak tersedia, masyarakat dapat mengajukan surat keterangan dari instansi terkait (seperti Dinas Kependudukan dan Pencatatan Sipil).",179,False,10.24,512,42
+QA039,uji,Syarat,"Apa yang boleh dilampirkan masyarakat umum jika nama, tempat dan tanggal lahir, serta nama orang tua tidak tercantum dalam dokumen akta atau ijazah?","Masyarakat umum dapat melampirkan surat keterangan dari keluarga, surat keterangan dari RT/RW, atau surat keterangan dari pihak yang berwenang (seperti kecamatan atau dinas pendidikan) sebagai bukti pendukung jika nama, tempat, tanggal lahir, atau nama orang tua tidak tercantum dalam dokumen akta atau ijazah.",88,False,4.67,512,42
+QA040,uji,Biaya,Berapa biaya layanan percepatan paspor yang selesai pada hari yang sama?,Biaya layanan percepatan paspor yang selesai pada hari yang sama di Indonesia adalah **Rp 100.000**.,32,False,2.02,512,42
+QA041,uji,Biaya,Berapa biaya paspor biasa elektronik dengan masa berlaku 10 tahun?,"Biaya paspor biasa elektronik dengan masa berlaku 10 tahun di Indonesia saat ini adalah **Rp 150.000** (sebagai biaya administrasi).  
+
+Catatan: Harga ini bisa berubah tergantung perubahan kebijakan pemerintah, sehingga disarankan untuk memeriksa langsung di situs resmi Kementerian Dalam Negeri atau kantor paspor terdekat.",103,False,5.82,512,42
+QA042,uji,Syarat,Permohonan paspor biasa dapat diajukan dengan cara apa saja?,"Permohonan paspor biasa dapat diajukan melalui:
+
+1. **Langsung ke kantor Kementerian Kebudayaan, Pariwisata dan Pemuda (Kemenparekraf)** atau kantor Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) setempat.  
+2. **Online melalui website resmi Kementerian Kebudayaan, Pariwisata dan Pemuda (Kemenparekraf)** atau **e-Service Kemenkumham** (untuk paspor yang dikeluarkan oleh Kemenkumham).  
+3. **Melalui layanan pengaduan atau layanan publik di kantor terdekat**.
+
+Catatan: Untuk paspor biasa, pendaftaran dan pengajuan biasanya dilakukan melalui **Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil)** atau **Kantor Kementerian Kebudayaan, Pariwisata dan Pemuda (Kemenparekraf)**.",242,False,13.37,512,42
+QA043,uji,Syarat,Apa persyaratan penggantian paspor yang akan habis masa berlakunya bagi paspor terbitan tahun 2009 dan setelahnya?,"Paspor terbitan tahun 2009 dan setelahnya wajib diganti jika sudah habis masa berlaku. Persyaratan penggantian antara lain:
+
+1. Paspor sudah habis masa berlaku (minimal 6 bulan sebelum keberangkatan).  
+2. Paspor tidak rusak, tidak dicat, tidak dimodifikasi.  
+3. Pemegang paspor harus memiliki identitas yang valid (KTP).  
+4. Diperlukan fotokopi KTP dan paspor lama (jika masih ada).  
+5. Biaya penggantian sesuai ketentuan yang berlaku.  
+
+Penggantian dapat dilakukan di kantor Kementerian Kebudayaan dan Pariwisata (Kemenkumham) atau kantor Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) setempat.",205,False,11.49,512,42
+QA048,uji,Instansi,"Dalam penggantian paspor hilang secara manual, siapa yang memutuskan menyetujui penggantian paspor biasa setelah menerima BAP?","Penggantian paspor hilang secara manual setelah menerima BAP (Berita Acara Pemeriksaan) ditetapkan oleh **Kepala Kantor Kepolisian Setempat** atau **Kepala Kantor Imigrasi** tergantung pada prosedur yang berlaku. Namun, dalam praktiknya, **penyetujuan penggantian paspor hilang** biasanya dilakukan oleh **Kepala Kantor Imigrasi** setempat.",113,False,6.07,512,42
+QA049,uji,Syarat,"Jika paspor hilang karena unsur kurang hati-hati dan kehilangan terjadi di luar kemampuan pemohon, apa yang diberikan?","Jika paspor hilang karena kesalahan pribadi dan kehilangan terjadi di luar kemampuan pemohon, pemohon **tidak diberikan paspor baru secara gratis**. Namun, pemerintah dapat memberikan **bantuan administratif** atau **surat keberatan** untuk proses penggantian, tetapi biaya penggantian biasanya **dipikul oleh pemohon**.",97,False,5.78,512,42
+QA051,uji,Prosedur,"Dalam layanan penerbitan biodata WNI di Dinas Dukcapil, formulir apa yang diisi WNI?","WNI mengisi **Formulir Permohonan Penerbitan Biodata** yang disediakan oleh Dinas Dukcapil. Formulir ini mencakup data pribadi seperti nama lengkap, tempat dan tanggal lahir, alamat, jenis kelamin, dan lainnya.",66,False,3.53,512,42
+QA052,uji,Syarat,Apa yang diisi WNI jika tidak memiliki fotokopi dokumen peristiwa kependudukan dan bukti pendidikan terakhir pada penerbitan biodata?,"Jika WNI tidak memiliki fotokopi dokumen peristiwa kependudukan dan bukti pendidikan terakhir, pada penerbitan biodata dapat diisi dengan **""tidak memiliki""** atau **""belum memiliki""** sesuai dengan keadaan aktual. Namun, harus diperjelas bahwa dokumen tersebut diperlukan untuk keperluan verifikasi kependudukan dan pendidikan. Jika tidak ada, maka perlu dilaporkan secara jujur dan dapat dijelaskan dalam catatan tambahan jika diperlukan.",127,False,7.38,512,42
+QA053,uji,Syarat,Surat pengantar RT dan RW tidak diperlukan untuk siapa dalam penerbitan biodata WNI?,Surat pengantar RT dan RW tidak diperlukan untuk **warga negara Indonesia (WNI) yang sudah memiliki KTP dan tinggal di wilayah yang sama dengan data KTP** dalam penerbitan biodata.,50,False,2.64,512,42
+QA054,uji,Syarat,Apa persyaratan pencatatan biodata bagi orang asing (OA)?,"Persyaratan pencatatan biodata bagi orang asing (OA) antara lain:
+
+1. Kepemilikan paspor yang masih berlaku.  
+2. Surat izin tinggal atau visa yang sah.  
+3. Fotokopi dokumen pendukung (seperti surat pernyataan, surat keterangan dari instansi terkait).  
+4. Formulir pencatatan biodata yang telah diisi lengkap dan benar.  
+5. Foto berwarna ukuran standar (sesuai ketentuan).  
+6. Pencatatan dilakukan di instansi yang berwenang (seperti kepolisian atau kantor imigrasi).  
+
+Catatan: Syarat dapat berbeda tergantung kebijakan daerah dan jenis kegiatan (misalnya tinggal, bekerja, atau studi).",188,False,10.63,512,42
+QA055,uji,Syarat,Pasal berapa dari Perpres 96/2018 yang mengatur persyaratan pencatatan biodata orang asing?,Pasal 12 dari Peraturan Pemerintah Republik Indonesia Nomor 96 Tahun 2018 mengatur persyaratan pencatatan biodata orang asing.,44,False,2.35,512,42
+QA056,uji,Prosedur,Formulir apa yang diisi penduduk untuk penerbitan KK baru karena membentuk keluarga baru?,Penduduk mengisi **Formulir Permohonan Penerbitan Kartu Keluarga Baru** untuk penerbitan KK baru karena membentuk keluarga baru. Formulir ini biasanya diserahkan di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) setempat.,76,False,4.06,512,42
+QA057,uji,Syarat,Dokumen apa yang dapat diserahkan penduduk jika tidak memiliki buku nikah atau akta perkawinan untuk penerbitan KK baru karena membentuk keluarga baru?,"Penduduk yang tidak memiliki buku nikah atau akta perkawinan tetap dapat mengajukan permohonan penerbitan KK baru dengan menyertakan dokumen berikut:
+
+- Surat pernyataan membentuk keluarga baru  
+- Kartu keluarga lama (jika ada)  
+- Keterangan dari RT/RW tentang hubungan keluarga  
+- Fotokopi KTP anggota keluarga  
+- Surat keterangan dari pihak ketiga (misalnya, surat keterangan dari tokoh masyarakat atau kelurahan)  
+
+Namun, penerbitan KK tanpa akta nikah atau buku nikah **tidak diizinkan secara resmi** oleh Kementerian Dalam Negeri. Oleh karena itu, untuk kepastian hukum dan kepatuhan, disarankan agar penduduk segera mengurus akta nikah atau buku nikah. Jika tidak mungkin, bisa mengajukan permohonan **penggantian KK berdasarkan perjanjian keluarga** dengan persetujuan dari RT/RW dan kepala desa/kelurahan.",254,False,14.21,512,42
+QA058,uji,Syarat,Dokumen apa yang dilampirkan jika kepala keluarga meninggal pada penerbitan KK baru karena penggantian kepala keluarga?,"Jika kepala keluarga meninggal saat penerbitan KK baru karena penggantian kepala keluarga, yang dilampirkan adalah:
+
+1. **Surat Keterangan Kematian** dari pihak kepolisian (polsek)  
+2. **Akta Kematian** (jika tersedia)  
+3. **Kartu Keluarga (KK) lama** (sebagai bukti perubahan kepala keluarga)
+
+Dokumen-dokumen ini dibutuhkan untuk membuktikan kematian kepala keluarga dan memperbarui kepala keluarga baru sesuai ketentuan peraturan KK.",149,False,8.51,512,42
+QA059,uji,Prosedur,Apa solusinya jika seluruh anggota keluarga masih berusia di bawah 17 tahun dan KK memerlukan kepala keluarga dewasa?,"Jika seluruh anggota keluarga di bawah 17 tahun dan tidak ada anggota dewasa, KK dapat diisi oleh orang dewasa yang secara hukum menjadi kepala keluarga, meskipun tidak secara fisik tinggal di rumah. Namun, jika tidak ada orang dewasa dalam keluarga, maka perlu dilakukan penyesuaian secara hukum atau administratif melalui pengajuan ke Dinas Sosial atau BPJS untuk penentuan kepala keluarga yang sah. Dalam kasus ini, pemerintah dapat menetapkan orang tua atau wali sebagai kepala keluarga secara hukum, meskipun tidak tinggal.",155,False,8.87,512,42
+QA060,uji,Syarat,Berapa umur minimal penduduk yang belum menikah agar dapat pisah KK dalam 1 alamat?,"Penduduk yang belum menikah tidak memiliki syarat umur minimal khusus untuk memisah KK dalam 1 alamat. Namun, untuk memisah KK, penduduk harus memenuhi syarat berdasarkan kebutuhan dan keadaan keluarga, seperti:
+
+- Tidak ada anggota keluarga lain yang tinggal bersama.
+- Memiliki alasan yang sah (misalnya, tinggal sendiri, bekerja di tempat lain, dll).
+- Tidak ada kebutuhan hukum atau peraturan yang mengharuskan tetap bersama.
+
+Namun, **umur minimal tidak ditentukan** secara eksplisit oleh peraturan pemerintah untuk penduduk belum menikah yang ingin memisah KK. Yang penting adalah kebutuhan dan keadaan hidupnya.
+
+Jadi, **tidak ada umur minimal** yang ditetapkan.",204,False,11.37,512,42
+QA061,uji,Syarat,Dokumen apa yang dilampirkan jika pisah KK dalam 1 alamat disebabkan pernikahan atau perceraian?,"Jika pisah KK dalam 1 alamat karena pernikahan atau perceraian, yang dilampirkan adalah:
+
+- **Akta pernikahan** (untuk pernikahan)  
+- **Akta perceraian** (untuk perceraian)
+
+Kedua dokumen tersebut harus dikeluarkan oleh Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) dan diperlukan sebagai dasar untuk pemisahan KK.",104,False,5.53,512,42
+QA062,uji,Prosedur,Formulir apa yang diisi penduduk karena perubahan elemen data dalam KK?,Penduduk mengisi **Formulir Permohonan Perubahan Data Keluarga (KK)** karena perubahan elemen data dalam Kartu Keluarga.,38,False,2.04,512,42
+QA063,uji,Syarat,Apa yang dimaksud peristiwa kependudukan dalam penerbitan KK karena perubahan data?,"Peristiwa kependudukan dalam penerbitan Kartu Keluarga (KK) karena perubahan data merujuk pada peristiwa yang terjadi ketika terjadi perubahan informasi penduduk, seperti kelahiran, kematian, perpindahan tempat tinggal, atau perubahan status keluarga, sehingga memerlukan penyesuaian data dalam KK. Peristiwa ini memicu proses pembaruan atau penerbitan ulang KK untuk mencerminkan kondisi kependudukan yang akurat.",125,False,7.35,512,42
+QA064,uji,Syarat,Surat apa yang diserahkan penduduk kepada Dinas untuk penggantian KK yang hilang?,"Penduduk harus menyerahkan **Surat Pernyataan Kerusakan atau Hilangnya Kartu Keluarga (KK)** serta dokumen pendukung seperti KTP anggota keluarga, akta kelahiran, atau surat keterangan dari RT/RW, kepada Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) untuk penggantian KK yang hilang.",94,False,5.03,512,42
+QA065,uji,Syarat,Berapa usia minimal WNI untuk memperoleh KTP-el baru?,Usia minimal WNI untuk memperoleh KTP-el baru adalah 17 tahun.,21,False,1.12,512,42
+QA066,uji,Syarat,Dokumen apa yang dilampirkan penduduk untuk penerbitan KTP-el baru bagi WNI?,Penduduk hanya perlu melampirkan **Kartu Tanda Penduduk (KTP) lama** dan **surat keterangan dari RT/RW** untuk penerbitan KTP-el baru bagi WNI.,52,False,3.42,512,42
+QA069,uji,Syarat,Apa persyaratan penerbitan KTP-el baru bagi penduduk orang asing (OA)?,Penduduk orang asing (OA) tidak dapat menerbitkan KTP-el. KTP-el hanya dikeluarkan untuk warga negara Indonesia. OA harus menggunakan Kartu Tanda Penduduk (KTP) yang dikeluarkan oleh pemerintah sesuai ketentuan hukum.,69,False,3.64,512,42
+QA070,uji,Syarat,Pasal berapa dari Perpres 96/2018 yang mengatur penerbitan KTP-el baru bagi OA?,Pasal 12 dari Peraturan Pemerintah Republik Indonesia Nomor 96 Tahun 2018 mengatur penerbitan KTP-el baru bagi Orang Asing (OA).,48,False,2.56,512,42
+QA071,uji,Syarat,Dokumen apa yang dilampirkan OA untuk perpanjangan KTP-el?,"OA tidak melampirkan dokumen tambahan untuk perpanjangan KTP-el. Pendaftaran dan perpanjangan KTP-el dilakukan secara online melalui situs resmi Kemenkumham, dengan verifikasi dokumen yang sudah dimiliki pemohon (seperti KTP sebelumnya, KK, atau surat keterangan lainnya). Dokumen yang diminta hanya untuk verifikasi, bukan dilampirkan dalam OA.",98,False,5.73,512,42
+QA072,uji,Syarat,Surat apa yang dilampirkan OA jika KTP-el hilang?,"Jika KTP-el hilang, OA (Otoritas Administrasi) tidak melampirkan surat khusus karena KTP-el hilang tidak memerlukan surat pengganti. Namun, pemohon wajib mengajukan **Surat Pernyataan Kehilangan KTP-el** yang dikeluarkan oleh Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) setempat. Surat ini menjadi dokumen yang diperlukan untuk proses penggantian KTP-el.",123,False,6.58,512,42
+QA076,uji,Durasi,Berapa lama masa berlaku KIA untuk anak orang asing?,"Masa berlaku KIA (Kartu Identitas Anak) untuk anak orang asing di Indonesia adalah **10 tahun**, mulai dari usia 1 tahun hingga usia 10 tahun. Setelah itu, anak tersebut wajib memiliki KTP anak atau KTP sebagai pengganti.",68,False,3.62,512,42
+QA077,uji,Syarat,Foto anak seperti apa yang diperlukan untuk KIA anak orang asing usia 5 sampai 17 tahun kurang 1 hari?,"Foto anak yang diperlukan untuk KIA anak orang asing usia 5 sampai 17 tahun kurang 1 hari adalah foto berwarna, ukuran 3x4 cm, latar belakang putih, dan berdiri dengan posisi tegak, wajah terlihat jelas, tanpa topi atau aksesori yang menghalangi wajah. Foto harus baru, tidak terlalu tua, dan sesuai dengan identitas anak.",105,False,6.18,512,42
+QA078,uji,Syarat,"Dalam perpindahan WNI dalam 1 Kab/Kota, apa yang perlu diserahkan jika penduduk menumpang KK, menyewa rumah, kontrak, atau kost?","Jika WNI menumpang KK, menyewa rumah, kontrak, atau kost, perlu diserahkan **surat keterangan tempat tinggal (SKT)** atau **surat keterangan domisili** dari pihak penyewa atau pemilik rumah. Dokumen ini digunakan untuk mendukung pendaftaran atau perubahan status penduduk di wilayah setempat.",91,False,4.87,512,42
+QA079,uji,Prosedur,Apakah SKPWNI perlu diterbitkan untuk perpindahan WNI dalam 1 Kab/Kota?,"Tidak, SKPWNI (Surat Keterangan Pindah WNI) tidak perlu diterbitkan untuk perpindahan WNI dalam satu kabupaten/kota. Perpindahan WNI di dalam wilayah yang sama tidak memerlukan surat tersebut karena tidak melibatkan perubahan status administratif atau pendaftaran di tempat baru.",81,False,4.95,512,42
+QA080,uji,Prosedur,"Dalam perpindahan WNI antar kabupaten/kota (daerah asal), KK dengan nomor apa yang diterbitkan jika kepala keluarga pindah namun anggota keluarga tidak pindah?","Jika kepala keluarga (KK) pindah antar kabupaten/kota tetapi anggota keluarga tidak pindah, KK yang diterbitkan adalah **KK dengan nomor baru di daerah tujuan**, namun tetap menggunakan **nomor KK asli di daerah asal** sebagai dasar identitas keluarga. Namun, secara hukum dan administrasi, KK baru diterbitkan di daerah tujuan dengan **nomor KK baru** yang diberikan oleh Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) setempat.
+
+Jadi, jawabannya:  
+**KK dengan nomor baru di daerah tujuan.**",156,False,8.29,512,42
+QA081,uji,Prosedur,Dokumen apa yang diterbitkan Dinas Dukcapil daerah asal bagi penduduk WNI yang pindah antar kabupaten/kota?,Dokumen yang diterbitkan Dinas Dukcapil daerah asal bagi penduduk WNI yang pindah antar kabupaten/kota adalah **Surat Keterangan Pindah (S.K. Pindah)**.,53,False,3.29,512,42
+QA082,uji,Prosedur,Apakah Dinas Dukcapil daerah asal menarik KTP-el dan/atau KIA penduduk yang pindah antar kabupaten/kota?,"Tidak, Dinas Dukcapil daerah asal tidak menarik KTP-el dan/atau KIA penduduk yang pindah antar kabupaten/kota. KTP-el dan KIA tetap dimiliki oleh penduduk hingga proses perubahan status atau pindah daerah selesai. Pemindahan penduduk dilakukan melalui proses perubahan data di Dinas Dukcapil tujuan, dengan dukungan dari Dinas Dukcapil asal yang memberikan data pendukung.",120,False,6.33,512,42
+QA093,uji,Durasi,Paling lambat berapa hari OA wajib melapor kepada Instansi Pelaksana sejak diterbitkan ITAS?,"Paling lambat **14 hari** kerja setelah diterbitkan ITAS, OA wajib melapor kepada Instansi Pelaksana.",34,False,1.79,512,42
+QA094,uji,Durasi,Berapa masa berlaku SKTT yang diterbitkan Dinas Dukcapil bagi OA ITAS yang datang dari luar wilayah NKRI?,SKTT (Surat Keterangan Tempat Tinggal) yang diterbitkan Dinas Dukcapil bagi OA ITAS (Orang Asing dengan Status Tempat Tinggal) yang datang dari luar wilayah NKRI **berlaku selama 1 tahun** dari tanggal diterbitkan.,67,False,3.9,512,42
