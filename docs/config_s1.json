@@ -1,0 +1,58 @@
+{
+  "tanggal_dikunci": "2026-11-23 11:25 WIB",
+  "skenario": "S1 (tanpa RAG)",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revisi": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "dtype": "float16",
+  "decoding": "greedy (do_sample=False)",
+  "max_new_tokens": 512,
+  "seed": 42,
+  "system_prompt": "Anda adalah asisten layanan publik Indonesia. Jawab dalam bahasa Indonesia dengan ringkas.",
+  "masukan_ke_model": "hanya kolom pertanyaan; jawaban_acuan dan bukti_kutipan tidak dikirim",
+  "data": {
+    "file": "data/processed/qa.csv",
+    "jumlah_qa": 94,
+    "dev": 31,
+    "uji": 63
+  },
+  "pemilihan_max_new_tokens": {
+    "dasar": "hanya soal dev (31 soal)",
+    "hasil_dev": {
+      "512": {
+        "jumlah": 31,
+        "terpotong": 0,
+        "persen": 0.0,
+        "token_rata2": 160.8,
+        "waktu_rata2_detik": 9.1,
+        "berkas": "jawaban_s1_dev_512.csv",
+        "sumber": "berkas hasil"
+      },
+      "384": {
+        "jumlah": 31,
+        "terpotong": 2,
+        "persen": 6.5,
+        "token_rata2": 157.7,
+        "waktu_rata2_detik": 8.9,
+        "berkas": "jawaban_s1_dev_384.csv",
+        "sumber": "berkas hasil"
+      },
+      "256": {
+        "jumlah": 31,
+        "terpotong": 7,
+        "persen": 22.6,
+        "token_rata2": 145,
+        "waktu_rata2_detik": 7.9,
+        "berkas": "tidak tersimpan",
+        "sumber": "keluaran layar sel 5.3"
+      }
+    },
+    "keputusan": "512 token (0% terpotong di dev)"
+  },
+  "lingkungan": {
+    "gpu": "Tesla T4",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "python": "3.13.16"
+  },
+  "catatan": "Konfigurasi dikunci SEBELUM 63 soal uji dijalankan."
+}

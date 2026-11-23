@@ -1,0 +1,179 @@
+id_qa,split,tipe,pertanyaan,jawaban_model,jumlah_token,terpotong,waktu_detik,max_new_tokens,seed
+QA001,dev,Instansi,Kepada siapa permohonan paspor baru bagi anak berkewarganegaraan Indonesia yang lahir di luar wilayah Indonesia diajukan?,"Permohonan paspor baru bagi anak berkewarganegaraan Indonesia yang lahir di luar wilayah Indonesia diajukan kepada **Kementerian Kebudayaan, Kepemilikan, dan Kewarganegaraan (Kemenkumham)** atau lebih tepatnya **Kementerian Kesehatan** atau **Kementerian Hukum dan HAM**, namun secara resmi, permohonan paspor dilayani oleh **Kementerian Kebudayaan, Kepemilikan, dan Kewarganegaraan (Kemenkumham)** melalui **Badan Kependudukan dan Pencatatan Sipil (BPKS)**.
+
+Namun, **permohonan paspor anak lahir di luar negeri** seharusnya diajukan ke **Kantor Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) di wilayah tempat tinggal orang tua atau wali anak**, atau **ke kantor paspor terdekat** yang berada di wilayah Indonesia.
+
+Jadi, jawabannya:  
+**Kepada Kantor Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) di wilayah tempat tinggal orang tua atau wali anak.**",292,False,16.63,512,42
+QA004,dev,Prosedur,Apa saja tahapan mekanisme pengesahan permohonan paspor untuk anak yang lahir di luar negeri?,"Tahapan mekanisme pengesahan permohonan paspor untuk anak yang lahir di luar negeri sebagai berikut:
+
+1. **Pengajuan Permohonan** – Orang tua atau wali mengajukan permohonan paspor anak melalui Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) setempat atau melalui kantor Kementerian Kebudayaan, Pariwisata, dan Olahraga (Kemendagri) atau kantor paspor terdekat.
+
+2. **Pengisian Formulir** – Mengisi formulir permohonan paspor anak yang mencantumkan data anak, data orang tua, dan dokumen pendukung.
+
+3. **Pengajuan Dokumen Pendukung** – Melampirkan dokumen seperti:
+   - Surat keterangan lahir anak (dari kantor kependudukan di luar negeri).
+   - Surat keterangan kewarganegaraan anak.
+   - Surat keterangan kewarganegaraan orang tua.
+   - Fotokopi KTP orang tua.
+   - Surat pernyataan kewarganegaraan anak (jika diperlukan).
+
+4. **Pemeriksaan Dokumen** – Dukcapil atau kantor paspor memverifikasi keaslian dan kebenaran dokumen yang diajukan.
+
+5. **Pengesahan oleh Pemerintah** – Jika dokumen lengkap dan valid, maka permohonan akan diproses dan diakui oleh pemerintah sebagai legalitas anak yang lahir di luar negeri.
+
+6. **Pengiriman Paspor** – Paspor dikeluarkan dan dikirimkan ke alamat yang ditentukan.
+
+Catatan: Anak yang lahir di luar negeri harus memiliki kewarganegaraan yang jelas, dan proses ini bisa membutuhkan waktu beberapa minggu hingga bulan. Dalam kasus tertentu, diperlukan konsultasi dengan Dinas Kependudukan atau kantor paspor terdekat.",472,False,27.04,512,42
+QA011,dev,Syarat,Apa yang dilakukan kantor imigrasi jika paspor rusak saat proses penerbitan?,"Jika paspor rusak saat proses penerbitan, kantor imigrasi akan menghentikan proses tersebut dan meminta penggantian dokumen yang valid. Pasangan harus mengajukan permohonan penggantian paspor atau mengajukan dokumen yang sesuai dengan ketentuan. Dalam kasus tertentu, paspor bisa diperbarui atau diganti dengan paspor baru setelah proses verifikasi.",98,False,5.57,512,42
+QA012,dev,Syarat,Apa saja yang termasuk keadaan kahar (force majeure) sebagai alasan penggantian paspor biasa?,"Keadaan kahar (force majeure) yang dapat menjadi alasan penggantian paspor biasa meliputi:
+
+- Bencana alam (misalnya gempa, banjir, kebakaran)  
+- Perang atau konflik berskala besar  
+- Wabah penyakit (seperti pandemi)  
+- Kebijakan pemerintah yang mengubah kebijakan perjalanan  
+- Kegagalan logistik atau transportasi yang tidak dapat diantisipasi  
+
+Namun, perlu dicatat bahwa penggantian paspor biasa karena keadaan kahar **tidak secara otomatis** diberikan. Pemohon harus membuktikan kejadian tersebut secara resmi dan sesuai dengan ketentuan yang ditetapkan oleh Kementerian Dalam Negeri atau Kementerian Luar Negeri.",197,False,10.83,512,42
+QA013,dev,Syarat,Apa tambahan persyaratan penggantian paspor hilang karena keadaan kahar?,"Tidak ada tambahan persyaratan khusus untuk penggantian paspor hilang karena keadaan kahar. Persyaratan umumnya sama dengan penggantian paspor hilang, yaitu:
+
+- Fotokopi KTP dan surat keterangan hilang paspor dari kepolisian (dari polsek setempat).  
+- Surat keterangan kehilangan dari kepolisian (dengan catatan kehilangan).  
+- Biaya penggantian paspor.  
+
+Namun, jika paspor hilang karena keadaan kahar (misalnya terbakar, terkena air, atau rusak), pemohon tetap harus membawa bukti kejadian tersebut (seperti foto atau sertifikat kerusakan) untuk mendukung permohonan.  
+
+Catatan: Penggantian paspor karena keadaan kahar tidak dikenakan biaya tambahan, tetapi tetap dikenakan biaya penggantian paspor sesuai ketentuan yang berlaku.  
+
+Silakan hubungi Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) atau kantor paspor terdekat untuk informasi terkini.",272,False,15.76,512,42
+QA014,dev,Syarat,"Selain akta kelahiran, akta perkawinan, buku nikah, dan ijazah, dokumen apa lagi yang dapat dilampirkan sebagai bukti pada penggantian paspor rusak?","Selain akta kelahiran, akta perkawinan, buku nikah, dan ijazah, dokumen yang dapat dilampirkan sebagai bukti pada penggantian paspor rusak adalah:
+
+- Kartu tanda penduduk (KTP)  
+- Surat keterangan domisili (jika diperlukan)  
+- Fotokopi surat keterangan kerja (jika diperlukan)  
+- Surat keterangan penghasilan (jika diperlukan)  
+
+Namun, dokumen tersebut **tidak wajib** dan tergantung pada kebijakan kantor paspor setempat. Paling penting adalah **akta kelahiran** dan **akta perkawinan** (jika berlaku) sebagai bukti identitas.  
+
+Catatan: Penggantian paspor biasanya hanya membutuhkan **akta kelahiran** dan **KTP**. Dokumen lain hanya sebagai tambahan jika diminta.",220,False,12.43,512,42
+QA017,dev,Biaya,Berapa biaya beban untuk penggantian paspor yang rusak?,"Biaya beban untuk penggantian paspor yang rusak di Indonesia adalah **Rp 100.000** (seratus ribu rupiah). Biaya ini berlaku untuk penggantian paspor yang rusak atau hilang, dan tidak termasuk biaya fotokopi atau pengiriman.",73,False,3.96,512,42
+QA023,dev,Syarat,Data identitas apa saja yang dapat diubah dalam layanan pengubahan data paspor?,"Dalam layanan pengubahan data paspor, yang dapat diubah hanya mencakup data yang **tidak mengubah identitas pribadi secara utama**, seperti:
+
+- Nama tempat tinggal  
+- Alamat email  
+- Nomor telepon  
+- Jenis kelamin (dalam beberapa kasus, tergantung kebijakan)  
+- Tanggal lahir (dengan syarat tidak mengubah identitas asli)
+
+Namun, **data yang tidak boleh diubah** antara lain:
+
+- Nama lengkap (terutama nama depan dan nama keluarga)  
+- Nomor paspor  
+- Kewarganegaraan  
+- Tanggal kelahiran (jika mengubah ini bisa mengubah identitas)  
+- Kode identitas pribadi (seperti KTP)
+
+Perubahan data harus dilakukan sesuai prosedur resmi dan biasanya memerlukan dokumen pendukung seperti KTP, surat keterangan dari instansi terkait, atau surat pernyataan.
+
+> Catatan: Pengubahan data paspor **tidak termasuk** dalam layanan penggantian paspor, dan harus dilakukan melalui layanan khusus yang sesuai dengan kebijakan Kementerian Dalam Negeri.",284,False,15.82,512,42
+QA032,dev,Syarat,KTP siapa yang diperlukan dalam persyaratan paspor anak di bawah 17 tahun?,"Dalam persyaratan paspor anak di bawah 17 tahun, yang diperlukan adalah **KTP orang tua atau wali**.",33,False,1.77,512,42
+QA033,dev,Syarat,Dokumen orang tua apa yang harus dilampirkan dalam permohonan paspor anak di bawah 17 tahun?,"Dalam permohonan paspor anak di bawah 17 tahun, orang tua harus melampirkan:
+
+1. **Kartu Keluarga (KK)** – yang mencantumkan nama dan hubungan orang tua dengan anak.  
+2. **Kartu Tanda Penduduk (KTP) orang tua** – sebagai bukti identitas.  
+3. **Akta Kelahiran anak** – sebagai bukti kelahiran.  
+
+Jika salah satu orang tua tidak dapat hadir, dokumen tersebut dapat dilengkapi dengan surat keterangan dari pihak yang berwenang (misalnya, surat keterangan tidak hadir dari pekerjaan atau surat pernyataan dari pihak ketiga).  
+
+Catatan: Dokumen harus valid dan sesuai dengan data yang tercatat di sistem pemerintah.",186,False,10.58,512,42
+QA037,dev,Syarat,"Surat rekomendasi apa yang dibutuhkan calon pekerja migran Indonesia untuk permohonan paspor, dan siapa yang menerbitkannya?","Calon pekerja migran Indonesia **tidak membutuhkan surat rekomendasi** untuk permohonan paspor.  
+
+Permohonan paspor dilakukan secara **pribadi** oleh calon pekerja migran ke **Kantor Kepolisian Negara Republik Indonesia (Polri)** di tempat tinggalnya.  
+
+Surat rekomendasi biasanya dibutuhkan untuk **proses pendaftaran sebagai pekerja migran**, bukan untuk paspor. Surat tersebut dikeluarkan oleh **perusahaan atau instansi yang mengajukan rekrutmen**.  
+
+Jadi, **tidak ada surat rekomendasi yang dibutuhkan untuk paspor**.",156,False,9.06,512,42
+QA044,dev,Syarat,"Jika paspor biasa hilang atau rusak karena musibah seperti kebakaran, kebanjiran, atau gempa bumi, apa yang dapat diberikan?","Jika paspor biasa hilang atau rusak karena musibah seperti kebakaran, kebanjiran, atau gempa bumi, pemerintah dapat memberikan **paspor darurat** (disebut juga paspor sementara atau paspor pengganti) sebagai pengganti. Permohonan ini harus diajukan ke kantor Kementerian Kebudayaan, Pariwisata, dan Kepemudaan (Kemendagri) atau kantor konsul terdekat, dengan dokumen pendukung seperti surat keterangan kerusakan atau laporan kejadian.",138,False,7.69,512,42
+QA045,dev,Durasi,"Penggantian paspor biasa dapat diajukan jika masa berlaku paspor akan habis, yaitu kurang dari berapa bulan?","Penggantian paspor biasa dapat diajukan jika masa berlaku paspor akan habis, yaitu kurang dari **6 bulan**.",37,False,2.16,512,42
+QA046,dev,Syarat,Surat apa dari pihak mana yang diperlukan untuk penggantian paspor biasa yang hilang?,"Untuk penggantian paspor biasa yang hilang, diperlukan **Surat Pernyataan Hilang** yang dikeluarkan oleh **pemilik paspor** (biasanya diisi oleh diri sendiri) dan **dibuat di kantor kecamatan atau desa** terdekat, serta **surat keterangan hilang dari RT/RW**.  
+
+Selain itu, harus disertai dokumen pendukung seperti:  
+- KTP  
+- Fotokopi KTP  
+- Fotokopi surat keterangan hilang dari RT/RW  
+- Foto berwarna 4x6 (2 lembar)  
+
+Lalu diajukan ke **Kantor Kepolisian setempat** atau **Kantor Dinas Kependudukan dan Pencatatan Sipil (Dukcapil)** untuk proses verifikasi, lalu ke **Kementerian Kebudayaan dan Pariwisata** atau **Kantor Pelayanan Paspor** terdekat untuk penggantian paspor.  
+
+Catatan: Paspor biasa tidak bisa diganti langsung tanpa proses verifikasi hilang.",254,False,14.33,512,42
+QA047,dev,Syarat,"Selain surat lapor kehilangan, dokumen apa saja yang dilampirkan untuk penggantian paspor hilang?","Selain surat laporan kehilangan, dokumen yang umum dilampirkan untuk penggantian paspor hilang antara lain:
+
+1. Fotokopi KTP pemilik paspor  
+2. Fotokopi surat keterangan kehilangan (dari kepolisian)  
+3. Fotokopi paspor lama (jika tersedia)  
+4. Surat keterangan dari instansi terkait (jika diperlukan, seperti surat dari pekerjaan atau sekolah)  
+5. Foto berwarna terbaru (2x4 cm)  
+
+Catatan: Syarat dan dokumen bisa berbeda tergantung kebijakan Kementerian Kebudayaan, Pariwisata, dan Kepemilikan, serta lokasi pengurusan. Sebaiknya periksa terlebih dahulu di kantor imigrasi terdekat.",199,False,11.23,512,42
+QA050,dev,Instansi,Kepada siapa permohonan penggantian paspor bagi anak WNI yang lahir di luar wilayah Indonesia diajukan?,Permohonan penggantian paspor bagi anak WNI yang lahir di luar wilayah Indonesia diajukan kepada **Kedutaan Besar atau Konsulat Republik Indonesia di negara tersebut**.,49,False,2.62,512,42
+QA067,dev,Syarat,Surat apa yang dilampirkan untuk penerbitan KTP-el baru karena KTP-el hilang bagi WNI?,"Untuk penerbitan KTP-el baru karena KTP-el hilang bagi WNI, yang dilampirkan adalah **Surat Keterangan Hilangnya KTP-el** dari kepolisian atau instansi terkait.",51,False,2.74,512,42
+QA068,dev,Syarat,Dokumen apa yang dilampirkan untuk KTP-el baru karena pindah datang antar kabupaten/kota/provinsi bagi WNI?,"Untuk pindah datang antar kabupaten/kota/provinsi bagi WNI, dokumen yang dilampirkan untuk KTP-el baru adalah **Surat Pindah Domisili** (dari Dinas Kependudukan dan Pencatatan Sipil tempat asal) dan **Surat Keterangan Pindah** (dari Dinas Kependudukan dan Pencatatan Sipil tempat tujuan).  
+
+Catatan: KTP-el baru diterbitkan setelah verifikasi dokumen tersebut.",118,False,7.07,512,42
+QA073,dev,Durasi,Sampai usia berapa masa berlaku KIA baru untuk anak yang berusia kurang dari 5 tahun?,Masa berlaku KIA baru untuk anak yang berusia kurang dari 5 tahun berlaku sampai usia **5 tahun**.,33,False,1.79,512,42
+QA074,dev,Durasi,Sampai kapan masa berlaku KIA untuk anak yang berusia 5 tahun?,"Masa berlaku KIA (Kartu Identitas Anak) untuk anak berusia 5 tahun adalah **selama 5 tahun dari tanggal penerbitan**. Jika KIA tidak diperbarui, maka akan kedaluwarsa setelah 5 tahun. Anak yang berusia 5 tahun masih bisa menggunakan KIA hingga masa berlakunya habis, namun perlu diperbarui jika ingin digunakan di masa depan.",104,False,5.66,512,42
+QA075,dev,Syarat,Foto anak seperti apa yang dibutuhkan untuk KIA anak usia 5 sampai 17 tahun kurang 1 hari?,"Foto anak yang dibutuhkan untuk KIA (Kartu Identitas Anak) usia 5 sampai 17 tahun kurang 1 hari adalah foto berwarna, ukuran 3,5 cm x 4,5 cm, berformat digital (JPEG), dengan latar belakang putih, dan anak berpakaian rapi, wajah terlihat jelas, tanpa topi atau aksesori yang mengganggu. Foto harus sesuai dengan data yang tercatat dalam dokumen.",115,False,6.85,512,42
+QA083,dev,Syarat,Dokumen apa yang harus dibawa WNI yang pindah datang antar kabupaten/kota di daerah tujuan?,"WNI yang pindah antar kabupaten/kota di daerah tujuan harus membawa:
+
+1. KTP (Kartu Tanda Penduduk)  
+2. Akta kelahiran (jika belum punya KTP)  
+3. Surat keterangan domisili dari tempat asal (opsional, tergantung kebijakan daerah tujuan)  
+4. Surat pernyataan pindah (jika diminta oleh pemerintah daerah tujuan)
+
+Catatan: Pemindahan domisili biasanya dilakukan di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) daerah tujuan.",151,False,8.86,512,42
+QA084,dev,Prosedur,"Jika WNI sudah berada di daerah tujuan tetapi belum punya SKP, apa yang dilakukan Dinas Dukcapil daerah tujuan?","Dinas Dukcapil daerah tujuan akan membantu WNI yang sudah berada di daerah tersebut tetapi belum memiliki SKP (Surat Keterangan Pindah) dengan memberikan layanan pendaftaran dan pengurusan SKP secara cepat, terutama melalui sistem digital atau prosedur khusus yang disediakan untuk WNI yang berada di luar kota atau negara.",92,False,5.05,512,42
+QA085,dev,Syarat,Apa persyaratan perpindahan penduduk orang asing pemegang ITAP dalam NKRI?,"Persyaratan perpindahan penduduk orang asing pemegang ITAP (Izin Tinggal Terbatas) di dalam NKRI antara lain:
+
+1. Memiliki ITAP yang masih berlaku.  
+2. Mempunyai surat keterangan dari pihak yang berwenang (misalnya, instansi terkait atau pengadilan) jika diperlukan.  
+3. Memenuhi syarat keamanan dan kesehatan sesuai ketentuan perundang-undangan.  
+4. Mengajukan permohonan perpindahan melalui instansi terkait (seperti Dinas Kependudukan dan Pencatatan Sipil).  
+5. Membayar biaya administrasi sesuai ketentuan.  
+
+Catatan: Perpindahan penduduk orang asing dengan ITAP biasanya tidak diperbolehkan secara umum tanpa izin khusus, dan harus sesuai dengan ketentuan hukum yang berlaku. Peraturan ini dapat berubah, sehingga disarankan untuk memeriksa kebijakan terkini dari Kementerian Hukum dan HAM atau Dinas Kependudukan setempat.",270,False,15.55,512,42
+QA086,dev,Prosedur,Apakah SKP perlu diterbitkan untuk perpindahan OA ITAP dalam 1 Kab/Kota?,"Tidak, SKP (Surat Keterangan Pindah) tidak perlu diterbitkan untuk perpindahan OA ITAP dalam satu kabupaten/kota. Perpindahan internal dalam satu wilayah administratif seperti kabupaten/kota biasanya tidak memerlukan SKP, karena tidak melibatkan perubahan tempat tinggal atau perpindahan administratif antar wilayah. Namun, perlu diperiksa dengan aturan internal Dinas Kependudukan dan Pencatatan Sipil (Dukcapil) setempat.",125,False,7.24,512,42
+QA087,dev,Syarat,Apa persyaratan perpindahan penduduk orang asing pemegang ITAS dalam NKRI?,"Persyaratan perpindahan penduduk orang asing pemegang ITAS (Izin Tinggal Terbatas) di dalam NKRI antara lain:
+
+1. Memiliki ITAS yang masih berlaku.  
+2. Mempunyai surat keterangan dari pihak yang berwenang (misalnya, instansi pemerintah atau lembaga terkait).  
+3. Memenuhi syarat kesehatan dan keamanan sosial sesuai ketentuan perundang-undangan.  
+4. Mengajukan permohonan secara tertulis ke Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil) setempat.  
+5. Melampirkan dokumen pendukung seperti KTP, paspor, surat keterangan kerja, atau surat pernyataan lainnya.  
+
+Catatan: Perpindahan ini harus sesuai dengan ketentuan Peraturan Pemerintah Nomor 10 Tahun 2022 tentang Pengelolaan Penduduk dan Peraturan Menteri Hukum dan HAM terkait.  
+
+*Catatan: Peraturan ini dapat berubah, sehingga disarankan untuk memeriksa kebijakan terkini dari pemerintah pusat atau daerah.*",290,False,15.76,512,42
+QA088,dev,Prosedur,Dokumen apa yang ditarik dan diganti dengan alamat baru oleh Dinas Dukcapil pada perpindahan OA ITAS dalam 1 Kab/Kota?,Dokumen yang ditarik dan diganti dengan alamat baru oleh Dinas Dukcapil pada perpindahan OA ITAS dalam 1 Kab/Kota adalah **Kartu Tanda Penduduk (KTP)**.,51,False,2.65,512,42
+QA089,dev,Instansi,Dokumen apa yang diserahkan Dinas Dukcapil Kab/Kota kepada WNI yang pindah ke luar wilayah NKRI?,"Dinas Dukcapil Kabupaten/Kota tidak menyerahkan dokumen resmi kepada WNI yang pindah ke luar wilayah NKRI. WNI yang pindah ke luar NKRI biasanya hanya memperoleh **Surat Keterangan Pindah (SKP)** dari Dinas Dukcapil setempat, yang digunakan untuk proses pendaftaran di wilayah tujuan. Namun, dokumen yang diperlukan untuk keperluan administrasi di luar NKRI adalah **Kartu Tanda Penduduk (KTP)** dan **Akta Kelahiran**, serta dokumen pendukung lainnya sesuai kebutuhan negara tujuan.",153,False,8.76,512,42
+QA090,dev,Durasi,Paling lambat berapa hari WNI yang telah pindah dan menetap di luar negeri wajib melapor kepada Perwakilan Republik Indonesia?,"Paling lambat **30 hari** setelah pindah dan menetap di luar negeri, WNI wajib melapor kepada Perwakilan Republik Indonesia.",42,False,2.21,512,42
+QA091,dev,Durasi,Paling lambat berapa hari WNI yang datang dari luar negeri wajib melaporkan kedatangannya kepada Instansi Pelaksana?,WNI yang datang dari luar negeri wajib melaporkan kedatangannya paling lambat dalam **14 hari** setelah tiba di Indonesia.,39,False,2.08,512,42
+QA092,dev,Syarat,Dokumen apa yang harus diserahkan WNI yang datang dari luar negeri selain formulir F-1.03?,"WNI yang datang dari luar negeri selain formulir F-1.03 harus menyertakan **surat keterangan perjalanan dari kantor keimigrasian asal** atau **surat keterangan perjalanan dari kantor imigrasi yang berwenang di negara asal**.  
+
+Namun, perlu dicatat bahwa WNI biasanya tidak perlu mengurus dokumen tersebut karena mereka tidak mengalami proses imigrasi seperti WNA. Jika yang dimaksud adalah WNI yang sedang melakukan perjalanan ke luar negeri (misalnya untuk bekerja atau studi), maka dokumen yang diperlukan adalah:
+
+- **Paspor**  
+- **Izin perjalanan (jika diperlukan)**  
+- **Surat keterangan dari instansi atau perusahaan**  
+
+Jika maksudnya adalah proses pendaftaran di Indonesia (misalnya untuk bekerja atau belajar), maka dokumen tambahan yang biasanya diperlukan adalah:
+
+- **Surat pernyataan keberadaan (surat keterangan dari pihak ketiga)**  
+- **Kartu keluarga**  
+- **Kartu tanda penduduk (KTP)**  
+
+Namun, **formulir F-1.03** biasanya digunakan untuk pendaftaran imigrasi bagi WNA, bukan WNI.  
+
+**Kesimpulan:**  
+WNI tidak perlu menyertakan formulir F-1.03 atau dokumen imigrasi lainnya saat datang ke Indonesia. Mereka hanya perlu membawa **paspor** dan **KTP**.  
+
+Jika ada konteks lebih spesifik (misalnya bekerja, belajar, atau visa), silakan klarifikasi.",392,False,22.88,512,42
