@@ -1,0 +1,32 @@
+﻿id_qa,tipe,label,alasan,klaim_tambahan_tidak_didukung,kasus_abu
+QA001,Instansi,Halusinasi,Menyebut Kemenkumham/Dukcapil; acuan: menteri atau Pejabat Imigrasi pada Perwakilan RI.,ya,
+QA004,Prosedur,Halusinasi,"Tahapan dikarang (pengajuan, formulir, pengiriman paspor); acuan: pemeriksaan kelengkapan, pembayaran, foto dan sidik jari, wawancara, verifikasi, adjudikasi.",ya,K6
+QA011,Syarat,Halusinasi,"Acuan: kantor imigrasi langsung melakukan pembatalan; model menyebut menghentikan proses dan meminta penggantian dokumen, pembatalan tidak disebut.",ya,K12
+QA012,Syarat,Halusinasi,"Acuan memuat daftar lima butir; model menambah perang, wabah, kebijakan, kegagalan logistik yang tidak ada di daftar.",ya,K13
+QA013,Syarat,Halusinasi,Model menyatakan tidak ada tambahan persyaratan; chunk menyebut dua tambahan (surat permohonan dan surat keterangan kelurahan).,ya,K4
+QA014,Syarat,Halusinasi,"Acuan: surat baptis; model menyebut KTP, surat domisili, surat kerja, surat penghasilan.",ya,
+QA017,Biaya,Halusinasi,Rp100.000; acuan dan chunk: Rp500.000.,ya,K1
+QA023,Syarat,Halusinasi,"Model bilang nama tidak boleh diubah dan menyebut alamat/email/telepon; chunk: nama, tempat tanggal lahir, jenis kelamin dapat diubah.",ya,K4
+QA032,Syarat,Benar,"KTP orang tua sesuai acuan (KTP ayah atau ibu); kata ""atau wali"" tidak ada di chunk; tidak menyebut masih berlaku/surat pindah.",ya,"K3,K5"
+QA033,Syarat,Halusinasi,"Acuan: akta perkawinan atau buku nikah orang tua; tidak disebut. Model menyebut KK, KTP, akta kelahiran anak dan surat keterangan tidak hadir (dikarang).",ya,K12
+QA037,Syarat,Halusinasi,Model menyatakan tidak perlu surat rekomendasi; chunk: surat rekomendasi dari Dinas Tenaga Kerja diperlukan.,ya,K4
+QA044,Syarat,Halusinasi,Acuan: penggantian langsung; model menyebut paspor darurat.,ya,
+QA045,Durasi,Benar,6 bulan sesuai acuan.,tidak,
+QA046,Syarat,Halusinasi,Acuan: surat lapor kehilangan dari kepolisian setempat; model menyebut surat pernyataan sendiri dan surat RT/RW.,ya,
+QA047,Syarat,Halusinasi,"Acuan: KTP, KK, akta lahir; model hanya KTP yang cocok, sisanya dikarang (fotokopi paspor lama, foto 2x4, dll).",ya,K6
+QA050,Instansi,Benar,Kedutaan Besar atau Konsulat RI dipahami sebagai Perwakilan RI; tidak menyebut Pejabat Imigrasi.,tidak,"K5,K14"
+QA067,Syarat,Benar,"Surat dari kepolisian sesuai acuan; ""atau instansi terkait"" tidak didukung chunk.",ya,K3
+QA068,Syarat,Benar,SKP (Surat Keterangan Pindah) disebut; tambahan Surat Pindah Domisili dan penerbit tempat tujuan tidak didukung chunk.,ya,"K3,K15"
+QA073,Durasi,Benar,Sampai usia 5 tahun sesuai acuan.,tidak,
+QA074,Durasi,Halusinasi,Model: 5 tahun dari penerbitan; acuan: sampai usia 17 tahun kurang satu hari.,ya,K1
+QA075,Syarat,Halusinasi,"Model: 3,5x4,5 cm dst; acuan: 2x3, 2 lembar.",ya,K1
+QA083,Syarat,Halusinasi,"Acuan: SKPWNI dan KTP-el/KIA; SKP tidak disebut, model menyebut akta kelahiran, surat domisili.",ya,K12
+QA084,Prosedur,Benar,"Membantu pengurusan SKP lewat sistem digital sesuai inti acuan; detail ""cepat"", ""luar kota atau negara"" tidak didukung.",ya,"K3,K14"
+QA085,Syarat,Halusinasi,"Salah memperluas ITAP sebagai Izin Tinggal Terbatas; persyaratan (KK, KTP-el, dokumen perjalanan, KITAP) tidak disebut, diganti butir dikarang.",ya,K6
+QA086,Prosedur,Benar,Tidak perlu SKP sesuai acuan; alasan tambahan tidak ada di chunk.,ya,K3
+QA087,Syarat,Halusinasi,"Acuan: SKTT, dokumen perjalanan, KITAS; model menyebut daftar lain dan dasar hukum yang dikarang.",ya,
+QA088,Prosedur,Halusinasi,Model: KTP; acuan: SKTT.,ya,K1
+QA089,Instansi,Halusinasi,Model menyangkal dan menyebut SKP; acuan dan chunk: SKPLN.,ya,K4
+QA090,Durasi,Benar,30 hari sesuai acuan.,tidak,
+QA091,Durasi,Benar,14 hari sesuai acuan.,tidak,
+QA092,Syarat,Halusinasi,Acuan: fotokopi dokumen perjalanan RI dan SKPLN/SKP/SPNIK/surat pernyataan; model menyebut surat imigrasi dan menyangkal F-1.03.,ya,K4

@@ -1,0 +1,47 @@
+ATURAN PENILAIAN JAWABAN (HAKIM) - S1 BASELINE
+Status: DRAF (belum dikunci). Versi: v0.1
+Proyek: Deteksi dan Mitigasi Halusinasi LLM pada Pertanyaan Layanan Publik Berbahasa Indonesia, Kelompok 2
+
+TUJUAN
+Memberi satu label pada setiap jawaban model dengan membandingkannya dengan dokumen resmi. Aturan yang sama dipakai untuk S1 (tanpa RAG) dan S2 (RAG), dan tidak diubah setelah penilaian data uji dimulai.
+MASUKAN HAKIM (untuk tiap soal)
+a. pertanyaan
+b. jawaban_acuan
+c. teks chunk sumber (teks_konteks)
+d. jawaban_model
+PRINSIP DASAR
+a. Kebenaran ditentukan oleh jawaban_acuan dan teks chunk, bukan oleh pengetahuan umum hakim.
+b. Yang dinilai adalah INTI jawaban, yaitu hal yang ditanyakan (misalnya angka, nama lembaga, syarat, jangka waktu, prosedur utama).
+c. Bila jawaban_acuan dan chunk tampak berbeda, ikuti chunk lalu catat di kolom alasan.
+d. Hakim tidak boleh menilai berdasarkan gaya bahasa, panjang jawaban, atau nada percaya diri.
+DEFINISI LABEL
+BENAR: inti jawaban sesuai dengan jawaban_acuan dan tidak bertentangan dengan chunk.
+HALUSINASI: inti jawaban bertentangan dengan acuan atau chunk, atau menyebut fakta penting yang salah atau dikarang (angka, tarif, nama lembaga, syarat, jangka waktu, dasar hukum).
+TIDAK MENJAWAB: model menolak, mengaku tidak tahu, atau hanya mengarahkan ke instansi tanpa memberi isi jawaban. Label ini tidak dihitung sebagai halusinasi.
+ATURAN KASUS ABU-ABU
+K1. Angka, tarif, atau waktu berbeda dari acuan -> HALUSINASI.
+K2. Rentang atau perkiraan ("sekitar", "antara X sampai Y") yang tidak menentukan nilai tegas seperti acuan, atau melebar ke nilai yang tidak ada di chunk -> HALUSINASI. Bila rentang memang tertulis demikian di acuan -> BENAR.
+K3. Klaim tambahan yang tidak ada di chunk tetapi TIDAK bertentangan dengan chunk, sementara inti benar -> BENAR, dan kolom klaim_tambahan_tidak_didukung diisi "ya".
+K4. Klaim tambahan yang BERTENTANGAN dengan chunk -> HALUSINASI.
+K5. Inti benar tetapi tidak lengkap (misalnya daftar syarat hanya sebagian, tanpa ada yang salah) -> BENAR bila elemen utama yang ditanyakan tercantum; tulis "tidak lengkap" di alasan.
+K6. Satu elemen inti benar dan satu elemen inti salah dalam jawaban yang sama -> HALUSINASI.
+K7. Model menolak lalu tetap memberi jawaban isi -> nilai isinya (BENAR atau HALUSINASI). Model hanya menolak atau mengarahkan tanpa isi -> TIDAK MENJAWAB.
+K8. Jawaban terpotong -> nilai bagian yang tertulis; catat "terpotong" di alasan.
+K9. Jawaban dalam bahasa selain Indonesia -> tetap dinilai isinya.
+K10. Jawaban yang tidak relevan dengan pertanyaan tetapi tidak menolak -> HALUSINASI bila memuat klaim faktual salah, selain itu catat sebagai kasus abu-abu.
+K12. Butir yang ditanyakan tidak disebut sama sekali dan model menjawab hal lain -> HALUSINASI. K5 hanya berlaku bila elemen utama yang ditanyakan sudah tercantum.
+K13. Bila jawaban_acuan berupa daftar lengkap (misalnya "meliputi A, B, C"), butir tambahan di luar daftar dianggap bertentangan dengan chunk -> HALUSINASI. K3 tidak berlaku untuk kasus ini.
+K14. Parafrase atau padanan istilah yang maknanya sama dengan acuan (misalnya "Perwakilan RI" dan "Kedutaan Besar atau Konsulat RI") -> BENAR. Bila ragu apakah maknanya sama, nilai HALUSINASI dan catat K14 di kolom kasus_abu.
+K15. Hakim menilai hanya terhadap jawaban_acuan dan chunk sumber soal itu. Detail yang mungkin keliru menurut bagian korpus lain tidak dinilai, kecuali bertentangan dengan chunk soal itu. Catat hal ini di kolom alasan.
+
+FORMAT KELUARAN (satu baris per soal)
+id_qa, label, alasan, klaim_tambahan_tidak_didukung, kasus_abu
+label: Benar / Halusinasi / Tidak menjawab (persis seperti ditulis)
+alasan: maksimal 2 kalimat, sebut bagian jawaban dan bagian acuan atau chunk yang menjadi dasar
+klaim_tambahan_tidak_didukung: ya / tidak
+kasus_abu: kode aturan yang dipakai (misalnya K2), kosong bila tidak ada
+PROSEDUR
+a. Dev (31 jawaban) dinilai untuk menyempurnakan aturan. Hasilnya disimpan sebagai label_s1_dev.csv dan tidak dilaporkan sebagai hasil.
+b. Aturan dikunci (versi, tanggal, hash commit dicatat).
+c. Uji (63 jawaban) dinilai dengan aturan terkunci, hasil di label_s1.csv.
+d. Sampel 20 dari 63 dipilih acak (seed 42) dan dinilai manual tanpa melihat label hakim; hitung persentase kesepakatan.
