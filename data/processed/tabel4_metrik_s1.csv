@@ -1,0 +1,6 @@
+metrik,jumlah,dari,persen,ci95_bawah,ci95_atas
+Halusinasi,53,63,84.1,73.2,91.1
+Benar,10,63,15.9,8.9,26.8
+Tidak menjawab,0,63,0.0,0.0,5.7
+Benar tanpa klaim tambahan (aturan ketat),3,63,4.8,1.6,13.1
+Benar dengan klaim tambahan tak terverifikasi,7,63,11.1,5.5,21.2
