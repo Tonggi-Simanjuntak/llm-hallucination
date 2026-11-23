@@ -1,5 +1,5 @@
 ATURAN PENILAIAN JAWABAN (HAKIM) - S1 BASELINE
-Status: DRAF (belum dikunci). Versi: v0.1
+Status: DIKUNCI. Versi: v2
 Proyek: Deteksi dan Mitigasi Halusinasi LLM pada Pertanyaan Layanan Publik Berbahasa Indonesia, Kelompok 2
 
 TUJUAN
@@ -29,6 +29,7 @@ K7. Model menolak lalu tetap memberi jawaban isi -> nilai isinya (BENAR atau HAL
 K8. Jawaban terpotong -> nilai bagian yang tertulis; catat "terpotong" di alasan.
 K9. Jawaban dalam bahasa selain Indonesia -> tetap dinilai isinya.
 K10. Jawaban yang tidak relevan dengan pertanyaan tetapi tidak menolak -> HALUSINASI bila memuat klaim faktual salah, selain itu catat sebagai kasus abu-abu.
+K11. Semua soal dalam set ini dapat dijawab dari dokumen sumber. Maka label TIDAK MENJAWAB berarti model gagal memberi jawaban, bukan perilaku yang benar. Label ini tidak dihitung sebagai halusinasi, tetapi dilaporkan terpisah sebagai abstention rate.
 K12. Butir yang ditanyakan tidak disebut sama sekali dan model menjawab hal lain -> HALUSINASI. K5 hanya berlaku bila elemen utama yang ditanyakan sudah tercantum.
 K13. Bila jawaban_acuan berupa daftar lengkap (misalnya "meliputi A, B, C"), butir tambahan di luar daftar dianggap bertentangan dengan chunk -> HALUSINASI. K3 tidak berlaku untuk kasus ini.
 K14. Parafrase atau padanan istilah yang maknanya sama dengan acuan (misalnya "Perwakilan RI" dan "Kedutaan Besar atau Konsulat RI") -> BENAR. Bila ragu apakah maknanya sama, nilai HALUSINASI dan catat K14 di kolom kasus_abu.
@@ -45,3 +46,6 @@ a. Dev (31 jawaban) dinilai untuk menyempurnakan aturan. Hasilnya disimpan sebag
 b. Aturan dikunci (versi, tanggal, hash commit dicatat).
 c. Uji (63 jawaban) dinilai dengan aturan terkunci, hasil di label_s1.csv.
 d. Sampel 20 dari 63 dipilih acak (seed 42) dan dinilai manual tanpa melihat label hakim; hitung persentase kesepakatan.
+
+PENGUNCIAN
+Versi v2 dikunci sebelum penilaian data uji. Draf awal v0.1: commit 216fb86. Penambahan K12 sampai K15 setelah uji dev (31 jawaban): commit c33fdbe. Penambahan K11 dan status dikunci: commit penguncian ini. Hash commit penguncian: dicatat di laporan.
